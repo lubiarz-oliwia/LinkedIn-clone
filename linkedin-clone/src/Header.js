@@ -7,14 +7,12 @@ import SupervisorAccountIcon from "@mui/icons-material/SupervisorAccount";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import ChatIcon from "@mui/icons-material/Chat";
 import WorkIcon from "@mui/icons-material/Work";
+
 function Header() {
  return (
   <div className="header">
    <div className="header__left">
-    <img
-     src="https://cdn-icons.flaticon.com/png/512/3536/premium/3536505.png?token=exp=1649437327~hmac=5f9f6066c87c4d9e7059861a32fc3dc8"
-     alt=""
-    />
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="" />
     <div className="header__search">
      <SearchIcon />
      <input type="text" />
@@ -31,6 +29,8 @@ function Header() {
      title="me"
     />
    </div>
+
+   
   </div>
  );
 }
