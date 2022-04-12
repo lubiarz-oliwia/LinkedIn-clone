@@ -9,6 +9,7 @@
     padding-bottom: 10px;
     width: 100%;
     z-index: 999;
+    background-color: white;
 }
 
 .header__left {
@@ -18,6 +19,7 @@
 .header__left>img {
     object-fit: contain;
     height: 40px;
+    width: 40px;
     margin-right: 10px;
 }
 
